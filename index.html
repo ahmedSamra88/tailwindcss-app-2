@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/output.css">
+    <title>Banking website</title>
+</head>
+<body class="bg-color-primary text-color-white tracking-wider">
+    <!-- start header -->
+    <header class="bg-color-primary-dark">
+        <nav class="container flex justify-between items-center">
+            <div class="brand py-4 text-color-secondary font-bold text-3xl">
+                <a href="http://">
+                    <span class="text-white">light</span> code.
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="space-x-6 capitalize items-center hidden md:flex">
+                    <li>
+                        <a href="http://" class="hover:text-color-secondary transition-all duration-200 ease-in-out">home</a>
+                    </li>
+                    <li>
+                        <a href="http://" class="hover:text-color-secondary transition-all duration-200">features</a>
+                    </li>
+                    <li>
+                        <a href="http://" class="hover:text-color-secondary transition-all duration-200">pricing</a>
+                    </li>
+                    <li>
+                        <a href="http://" class="hover:text-color-secondary transition-all duration-200">blog</a>
+                    </li>
+                    <li>
+                        <a href="http://" class="hover:text-color-secondary transition-all duration-200">contact</a>
+                    </li>
+                    <li>
+                        <a href="http://" class="btn !px-3 !py-2">free trail</a>
+                    </li>
+                </ul>
+                <div id="humberger"  class="block md:hidden cursor-pointer">
+                    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                      </svg>                      
+                </div>
+            </div>
+        </nav>
+        
+        <!-- mobile menu -->
+        <ul id="mobile_menu" class="capitalize hidden absolute py-20 text-center bg-color-primary-dark h-{100vh} grid inset-0 place-items-center md:hidden">
+            <div id="mobile_menu_close" class="text-right absolute top-5 right-5 cursor-pointer hover:text-color-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>                  
+            </div>
+            <li>
+                <a href="http://" class="hover:text-color-secondary transition-all duration-200 ease-in-out">home</a>
+            </li>
+            <li>
+                <a href="http://" class="hover:text-color-secondary transition-all duration-200">features</a>
+            </li>
+            <li>
+                <a href="http://" class="hover:text-color-secondary transition-all duration-200">pricing</a>
+            </li>
+            <li>
+                <a href="http://" class="hover:text-color-secondary transition-all duration-200">blog</a>
+            </li>
+            <li>
+                <a href="http://" class="hover:text-color-secondary transition-all duration-200">contact</a>
+            </li>
+            <li>
+                <a href="http://" class="btn !py-2">free trail</a>
+            </li>
+        </ul>
+    </header>
+    <!-- end header -->
+    <!-- home section -->
+    <main>
+        <div class="container py-14 text-center flex flex-col-reverse items-center md:flex-row md:text-left">
+            <div class="mt-10 md:w-1/2 space-y-9">
+                <h1 class="text-color-secondary font-bold text-3xl md:text-5xl leading-snug capitalize md:text-left">awesom app for your <span class="block"> financial. </span></h1>
+                <p class="leading-relaxed text-lg text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestias itaque sapiente assumenda, nobis harum corrupti asperiores excepturi impedit blanditiis.</p>    
+                <a href="http://" class="btn capitalize">free trail</a>
+            </div>
+            <div class="md:w-1/2">
+                <img class="w-9/12 m-auto md:w-100" src="./images/hero1.png" alt="" srcset="">
+            </div>
+        </div>
+    </main>
+    <!-- end home section -->
+    <!-- featur section -->
+    <section>
+        <div class="container flex flex-col space-y-9">
+            <div class="mt-10 space-y-9 text-center">
+                <h4 class="text-color-secondary uppercase font-bold">our features</h4>
+                <h3 class="text-color-white font-bold text-2xl md:text-4xl leading-snug capitalize">easy to manage all payments by our app.</h3>
+            </div>
+            <div class="grid py-16 lg:grid-cols-3 md:grid-cols-2  gap-10 text-center">
+                <div class="card">
+                    <div class="rounded-full bg-color-secondary p-5 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                          </svg>
+                    </div>
+                      <h5 class="font-bold capitalize">expense trackering</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, cumque.</p>
+                </div>
+                <div class="card">
+                    <div class="rounded-full bg-color-secondary p-5 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                          </svg>
+                          
+                    </div>
+                      <h5 class="font-bold capitalize">expense trackering</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, cumque.</p>
+                </div>
+                <div class="card">
+                    <div class="rounded-full bg-color-secondary p-5 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                          </svg>
+                          
+                    </div>
+                      <h5 class="font-bold capitalize">expense trackering</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, cumque.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end featur section -->
+    <!-- save mony -->
+    <section>
+        <div class="container  py-14 text-center flex flex-col-reverse items-center md:flex-row md:text-left">
+            <div class="mt-14 md:w-1/2">
+                <img class="w-9/12 m-auto md:w-100" src="./images/hero2.png" alt="" srcset="">
+            </div>
+            <div class="md:w-1/2 space-y-9">
+                <h4 class="text-color-secondary uppercase font-bold">saving money</h4>
+                <h3 class="text-color-white font-bold text-2xl md:text-4xl leading-snug capitalize md:text-left">best financing app to save your <span class="block"> money. </span></h3>
+                <p class="leading-relaxed text-lg text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestias itaque sapiente assumenda, nobis harum corrupti asperiores excepturi impedit blanditiis.</p>    
+                <a href="http://" class="btn capitalize">free trail</a>
+            </div>
+        </div>
+    </section>
+    <!-- end save mony -->
+    <!-- how it work -->
+    <section>
+        <div class="how-it-work my-6 container text-center space-y-9">
+            <h4 class="text-color-secondary uppercase font-bold">how it work </h4>
+            <h3 class="text-color-white font-bold text-2xl md:text-4xl leading-snug capitalize">grow up your mony saving</h3>
+            <div class="grid space-y-11 md:space-y-0 md:grid-cols-3 md:gap-5">
+                
+                <div class="text-center ">
+                    <h4 class="py-1 px-2 relative text-3xl bg-color-secondary text-color-white font-bold rounded-sm  inline-block after:absolute after:content-[''] after:block after:h-7  lg:after:content-[''] lg:after:flex lg:after:bg-[url('/images/line.png')] lg:after:absolute lg:after:top-2 lg:after:left-20 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">1</h4>
+                    <div class="mt-5">
+                          <h5 class="font-bold capitalize">expense trackering</h5>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, cumque.</p>
+                    </div>
+                </div>
+                <div class="text-center ">
+                    <h4 class="py-1 px-2 relative text-3xl bg-color-secondary text-color-white font-bold rounded-sm  inline-block after:absolute after:content-[''] after:block after:h-7  lg:after:content-[''] lg:after:flex lg:after:bg-[url('/images/line-bottom.png')] lg:after:absolute lg:after:top-2 lg:after:left-20 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">2</h4>
+                    <div class="mt-5">
+                          <h5 class="font-bold capitalize">expense trackering</h5>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, cumque.</p>
+                    </div>
+                </div>
+                <div class="text-center ">
+                    <h4 class="py-1 px-2 relative text-3xl bg-color-secondary text-color-white font-bold rounded-sm  inline-block ">3</h4>
+                    <div class="mt-5">
+                          <h5 class="font-bold capitalize">expense trackering</h5>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end how it work -->
+    <!-- start testmonial -->
+    <section class="testmonial">
+        <div class="container my-10 text-center">
+            <h4 class="text-color-secondary uppercase font-bold">user review </h4>
+            <h3 class="text-color-white font-bold text-2xl md:text-4xl leading-snug capitalize">what clients say about our app</h3>
+            <div class="">
+                <div class="userimgs flex items-center justify-center flex-wrap my-10 ">
+                    <img src="./images/user5.jpg" alt="" srcset="" class="block w-20 h-20 p-1 border-color-secondary transition-all delay-200 border-2 rounded-full cursor-pointer" onclick="showTestmonial()">
+                    <img src="./images/user5.jpg" alt="" srcset="" class="block transition-all delay-200 w-20 h-20 p-1  border-2 rounded-full cursor-pointer" onclick="showTestmonial()">
+                    <img src="./images/user5.jpg" alt="" srcset="" class="block transition-all delay-200 w-20 h-20 p-1  border-2 rounded-full cursor-pointer" onclick="showTestmonial()">
+                    <img src="./images/user5.jpg" alt="" srcset="" class="block transition-all delay-200 w-20 h-20 p-1 border-2 rounded-full cursor-pointer" onclick="showTestmonial()">
+                    <img src="./images/user5.jpg" alt="" srcset="" class="block transition-all delay-200 w-20 h-20 p-1  border-2 rounded-full cursor-pointer" onclick="showTestmonial()">
+                </div>
+                <dic class="usertext">
+                    <div class="text-center flex flex-col space-y-3  animate-fade-up">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit consequuntur. Officia, ducimus veritatis. Minus.</p>
+                        <h5 class="text-sm text-color-secondary font-bold capitalize">ahmed samra</h5>
+                        <span class="uppercase">it manager</span>
+                    </div>
+                    <div class="text-center hidden flex-col space-y-3 animate-fade-up">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit consequuntur. Officia, ducimus veritatis. Minus.</p>
+                        <h5 class="text-sm text-color-secondary font-bold capitalize ">ahmed samra</h5>
+                        <span class="uppercase">it manager</span>
+                    </div>
+                    <div class="text-center hidden flex-col space-y-3 animate-fade-up ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit consequuntur. Officia, ducimus veritatis. Minus.</p>
+                        <h5 class="text-sm text-color-secondary font-bold capitalize">mahmoud samra</h5>
+                        <span class="uppercase">it manager</span>
+                    </div>
+                    <div class="text-center hidden flex-col space-y-3 animate-fade-up ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit consequuntur. Officia, ducimus veritatis. Minus.</p>
+                        <h5 class="text-sm text-color-secondary font-bold capitalize">mohammed samra</h5>
+                        <span class="uppercase">it manager</span>
+                    </div>
+                    <div class="text-center  hidden flex-col space-y-3 animate-fade-up ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit consequuntur. Officia, ducimus veritatis. Minus.</p>
+                        <h5 class="text-sm text-color-secondary font-bold capitalize">eyad samra</h5>
+                        <span class="uppercase">it manager</span>
+                    </div>
+                </dic>
+            </div>
+        </div>
+    </section>
+    <!-- end testmonial -->
+    <script>
+        // humberger menu
+        const humberger_btn = document.querySelector("#humberger");
+        const mobile_menu = document.querySelector("#mobile_menu");
+        const mobile_menu_close= document.querySelector("#mobile_menu_close");
+        humberger_btn.addEventListener("click",()=>{
+            mobile_menu.classList.toggle("hidden");
+        });
+        mobile_menu_close.addEventListener("click",()=>{
+            mobile_menu.classList.toggle("hidden");
+        });
+        // testmonial
+        const userimgs = document.querySelector(".userimgs");
+        const usertext = document.querySelector(".usertext");
+        function showTestmonial(){
+
+            
+            for(img of userimgs.children){
+                img.classList.remove("border-color-secondary")
+            }
+            for(text of usertext.children){
+                text.classList.add("hidden")
+            }
+            let i = Array.from(userimgs.children).indexOf(event.target);
+            userimgs.children[i].classList.add("border-color-secondary");
+            usertext.children[i].classList.remove("hidden");
+        }
+    </script>
+</body>
+</html> 

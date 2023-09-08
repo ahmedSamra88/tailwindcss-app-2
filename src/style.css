@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .btn{
+        @apply bg-color-secondary inline-block  text-white rounded py-3 px-9 hover:bg-color-white hover:text-color-secondary transition-all duration-200;
+    }
+    .card{
+        @apply max-w-sm flex flex-col items-center m-auto space-y-5 hover:bg-color-primary-dark border border-color-white p-14 rounded-md  shadow-lg shadow-color-gray;
+    }
+    @keyframes moveup {
+        0%{
+            margin-top: 40px ;
+            opacity: 0;
+        }
+        50%{
+            margin-top: 20px;
+            opacity: .5;
+        }
+        100%{
+            margin-top: 0;
+            opacity: 1;
+        }
+        
+    }
+    
+    
+}
